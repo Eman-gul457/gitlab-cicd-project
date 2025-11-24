@@ -1,0 +1,15 @@
+stages:
+  - build
+
+build_app:
+  stage: build
+  image: docker:25.0.0
+  services:
+    - docker:25.0.0-dind
+
+  variables:
+    DOCKER_TLS_CERTDIR: ""
+
+  script:
+    - docker build -t node-cicd-app .
+
