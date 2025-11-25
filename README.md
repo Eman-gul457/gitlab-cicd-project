@@ -71,6 +71,9 @@ npm start
 Visit:
 👉 http://localhost:3001
 ---
+<img width="1355" height="572" alt="Final app running" src="https://github.com/user-attachments/assets/92744359-482d-4898-b03f-bad28cf0fd7a" />
+
+---
 
 STEP 5 — Dockerize the Application
 ---
@@ -80,6 +83,8 @@ Build + Run:
 docker build -t node-cicd-app .
 docker run -p 3001:3000 node-cicd-app
 ```
+<img width="1363" height="352" alt="docker-build" src="https://github.com/user-attachments/assets/27bac36f-a459-4aa7-9f12-012af4148c24" />
+
 ---
 STEP 6 — Push Code to GitLab
 ---
@@ -91,6 +96,7 @@ git branch -M main
 git remote add origin https://gitlab.com/YOUR_USERNAME/cicd-project.git
 git push -u origin main
 ```
+<img width="795" height="540" alt="gitlab-project" src="https://github.com/user-attachments/assets/f925ad07-9e56-49b2-9808-06d93766c910" />
 
 ---
 STEP 7 — Create GitLab CI/CD Pipeline
@@ -109,6 +115,8 @@ Make executable:
 ```bash
 chmod +x run.sh
 ```
+<img width="737" height="203" alt="run-sh-execution" src="https://github.com/user-attachments/assets/6ca579d9-fb88-4d9b-a49a-c7cbab3da65f" />
+
 ----
 STEP 9 — Deployment Script in GitLab Project
 ---
@@ -127,6 +135,8 @@ Your GitLab pipeline will:
 3.SSH into your local machine
 4.Run run.sh
 5.Deploy the new container
+
+<img width="1308" height="478" alt="gitlab-pipeline-passed" src="https://github.com/user-attachments/assets/dbf15043-c02a-48d1-a502-2677c0f12eca" />
 
 ---
 🎉 Conclusion
