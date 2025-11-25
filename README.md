@@ -17,15 +17,28 @@ This project demonstrates a full CI/CD workflow using Node.js, Docker, GitLab CI
 └── cicd-deployment
     └── run.sh
 ```
-🛠 Tools & Technologies Used
-Tool	Purpose
----
-Node.js       	        Simple web app
-Docker	                Containerizing the app
-GitLab  Repo	        Source code hosting
-GitLab CI/CD	        Building & pushing Docker images
-GitLab Registry	        Storing built Docker images
-Local Server (run.sh)	Deploying image locally
+## 🛠️ Tools & Technologies
+
+<p align="left">
+
+  <!-- Programming Languages -->
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+
+  <!-- DevOps Tools -->
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitLab-CI%2FCD-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+
+  <!-- Deployment / Environment -->
+  <img src="https://img.shields.io/badge/Linux-1793D1?style=for-the-badge&logo=linux&logoColor=white" />
+  <img src="https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white" />
+
+  <!-- Editors -->
+  <img src="https://img.shields.io/badge/VS_Code-0078D4?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
+
+</p>
+
 
 ---
 🚀 Step-by-Step Guide
